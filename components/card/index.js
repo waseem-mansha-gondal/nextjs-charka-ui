@@ -15,7 +15,9 @@ function Card({ post, ...rest }) {
         <CardHeader post={post} />
         <CardContent post={post} />
       </Box>
-      <CardFooter />
+      <Box>
+        <CardFooter />
+      </Box>
     </Box>
   );
 }

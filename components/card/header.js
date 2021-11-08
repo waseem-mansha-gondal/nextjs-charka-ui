@@ -81,7 +81,7 @@ function CardHeader({ post, ...rest }) {
           {post.time}
         </Text>
       </Stack>
-            <IconButton bg="transparent" _hover="transparent">
+      <IconButton bg="transparent" _hover="transparent">
         <Icon viewBox="0 0 200 200" opacity="0.5" fontSize="20px">
           <path
             fill="white"

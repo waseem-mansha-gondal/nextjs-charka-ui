@@ -20,9 +20,9 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <VStack className={styles.main} justify="center" align="center">
-        <Stack spacing={8}>
+        {/* <Stack spacing={8}> */}
           <Card post={post} />
-        </Stack>
+        {/* </Stack> */}
       </VStack>
     </div>
   );
